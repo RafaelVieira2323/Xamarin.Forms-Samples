@@ -8,6 +8,7 @@
       <local:MyDataTemplateSelector x:Key="MessageTemplateSelector"></local:MyDataTemplateSelector>
     </ResourceDictionary>
   </ContentPage.Resources>
+ <ScrollView>	
   <RelativeLayout>
   <ListView x:Name="MessagesListView" 
             ItemTemplate="{StaticResource MessageTemplateSelector}" 
@@ -34,4 +35,5 @@
     </Grid>
 
   </RelativeLayout>
+</ScrollView>
 </ContentPage>
